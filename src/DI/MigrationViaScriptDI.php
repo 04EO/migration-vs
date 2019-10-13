@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace io04\MigrationVs\DI;
+namespace ieov\MigrationVs\DI;
 
 use Dibi\Connection;
-use io04\MigrationVs\MigrationVsManager;
+use ieov\MigrationVs\MigrationVsManager;
 use Nette\DI\CompilerExtension;
 
 class MigrationViaScriptDI extends CompilerExtension

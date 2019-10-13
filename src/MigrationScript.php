@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace io04\MigrationVs;
+namespace ieov\MigrationVs;
 
 use Dibi\Connection;
 

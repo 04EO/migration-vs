@@ -1,5 +1,5 @@
 {
-	"name": "04EO/migration-vs",
+	"name": "ieov/migration-vs",
 	"description": "Database migrations via script",
 	"type": "library",
 	"license": "MIT",
@@ -9,6 +9,6 @@
 		"nette/di": "^2.4"
 	},
 	"autoload": {
-		"psr-4": { "io04\\MigrationVs\\": "src/" }
+		"psr-4": { "ieov\\MigrationVs\\": "src/" }
 	}
 }
