@@ -23,4 +23,6 @@ executed migrations.
 Create migration `scripts`, that extend _ieov\MigrationVs\MigrationScript.php_.
 These classes take dibi `connection` in constructor and implement _execute()_
 method, that return integer > 0 in success.
+ 
+Run _execute()_ method of _MigrationVsManager.php_ service to start migrations.
 

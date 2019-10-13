@@ -17,7 +17,8 @@ class MigrationViaScriptDI extends CompilerExtension
 
     private $defaults = [
         self::TABLE_NAME_PARAMETER => 'script_migrations',
-        self::SCRIPTS_PARAMETER => []
+        self::SCRIPTS_PARAMETER => [],
+        self::CONNECTION_PARAMETER => null
     ];
 
     public function loadConfiguration()
