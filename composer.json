@@ -1,0 +1,14 @@
+{
+	"name": "04EO/migration-vs",
+	"description": "Database migrations via script",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"php": ">=7.1",
+		"dibi/dibi": "^4.0.0",
+		"nette/di": "^2.4"
+	},
+	"autoload": {
+		"psr-4": { "io04\\MigrationVs\\": "src/" }
+	}
+}
