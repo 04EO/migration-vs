@@ -30,7 +30,7 @@ class MigrationRepository
             `status` TINYINT(1) NOT NULL DEFAULT '0',
             PRIMARY KEY (`id`),
             UNIQUE INDEX `name` (`name`)
-            ) ENGINE=InnoDB AUTO_INCREMENT=3 COLLATE=utf8_czech_ci;",
+            );",
             $this->tableName
         );
     }
