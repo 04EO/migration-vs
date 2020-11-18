@@ -20,9 +20,9 @@ class MigrationViaScriptDI extends CompilerExtension
         $builder = $this->getContainerBuilder();
         $builder->addDefinition($this->prefix('scriptMigrations'))
             ->setFactory(MigrationVsManager::class, [
-                $this->config[self::TABLE_NAME_PARAMETER],
-                $this->config[self::SCRIPTS_PARAMETER],
-                $this->config[self::CONNECTION_PARAMETER]
+                $this->config->tableName,
+                $this->config->scripts,
+                $this->config->connection
             ]);
     }
 
